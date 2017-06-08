@@ -5,8 +5,8 @@ ext {
     bintrayName = 'my-easy-permission' // your bintray package name. I am calling it the same as my library name.
 
     publishedGroupId = 'com.github.FVolodia'
-    libraryName = 'my-easy-permission'
-    artifact = 'my-easy-permission' // I'm calling it the same as my library name
+    libraryName = 'myeasypermission'
+    artifact = 'myeasypermission' // I'm calling it the same as my library name
 
     libraryDescription = 'A simple and awesome runtime permission library on Android.'
 
