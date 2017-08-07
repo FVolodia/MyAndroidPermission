@@ -110,6 +110,7 @@ public class EasyPermission {
         Intent intent = new Intent(mContext, PermissionActivity.class);
         intent.putExtra(ConstantValue.DATA_PERMISSION_TYPE, mPermissionType);
         intent.putExtra(ConstantValue.DATA_PERMISSIONS, (Serializable) mCheckPermissions);
+        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         mContext.startActivity(intent);
     }
 
